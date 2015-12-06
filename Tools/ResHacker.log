@@ -1,0 +1,6 @@
+[06 六月 2010, 17:14:00]
+Tools\ResHacker.exe -delete C:\Documents and Settings\HelStyle\桌面\PSueer\PSueer_100606\PSEditorx64.exe, C:\Documents and Settings\HelStyle\桌面\PSueer\PSueer_100606\PSEditorx64.exe, Icon, 169,
+Warning: Icon images cannot be manipulated directly, assumes IconGroup.
+  Deleted: ICONGROUP,169,2057
+
+Commands completed

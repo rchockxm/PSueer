@@ -1,0 +1,5 @@
+; run by clipboard (runbyclipboard)
+; if clipboard not empty and have exe path, it can be run.
+; try to ctrl+c "%windir%\notepad.exe" and run it.
+runbyclipboard=-none
+

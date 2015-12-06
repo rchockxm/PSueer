@@ -1,0 +1,2 @@
+; run and wait "regedit.exe" (runwait)
+runwait="%WinDir%\regedit.exe"

@@ -1,0 +1,32 @@
+; "dfsetup119.exe" Auto Install Example
+; strip all options
+run="Install\dfsetup119.exe"
+sendwinbyclick="Installer Language","OK","Button1"
+sendwinbyclick="Defraggler v1.19 安裝","下一步(&N) >","Button2"
+sendwinbyclick="Defraggler v1.19 安裝 ","我接受(&I)","Button2"
+sendwinbyclick="Defraggler v1.19 安裝 ","下一步(&N) >","Button2"
+sendwinbyclick="Defraggler v1.19 安裝","新增捷徑到桌面","Button4"
+sendwinbyclick="Defraggler v1.19 安裝","新增捷徑到開始功能表","Button5"
+sendwinbyclick="Defraggler v1.19 安裝","自動檢查 Defraggler 是否有新版本","Button6"
+sendwinbyclick="Defraggler v1.19 安裝","Install optional Yahoo! Toolbar","Button7"
+sendwinbyclick="Defraggler v1.19 安裝","安裝(&I)","Button2"
+sendwinbyclick="Defraggler v1.19 安裝 ","執行 Defraggler v1.19(&R)","Button4"
+sendwinbyclick="Defraggler v1.19 安裝 ","完成(&F)","Button2"
+
+; "dfsetup119.exe" Auto Install Example
+; strip all options and set dir to "C:\Program Files\PSueer Test\Defraggler\"
+run="Install\dfsetup119.exe"
+sendwinbyclick="Installer Language","OK","Button1"
+sendwinbyclick="Defraggler v1.19 安裝","下一步(&N) >","Button2"
+sendwinbyclick="Defraggler v1.19 安裝 ","我接受(&I)","Button2"
+sendwinbycontrol="C:\Program Files\PSueer Test\Defraggler\","Defraggler v1.19 安裝 ","","Edit1"
+sendwinbyclick="Defraggler v1.19 安裝 ","下一步(&N) >","Button2"
+sendbymouse="59","120","Defraggler v1.19 安裝","新增捷徑到桌面","Button4"
+sendbymouse="61","139","Defraggler v1.19 安裝","新增捷徑到開始功能表","Button5"
+sendbymouse="50","161","Defraggler v1.19 安裝","自動檢查 Defraggler 是否有新版本","Button6"
+sendbymouse="54","197","Defraggler v1.19 安裝","Install optional Yahoo! Toolbar","Button7"
+sendwinbyclick="Defraggler v1.19 安裝","安裝(&I)","Button2"
+sendwinbyclick="Defraggler v1.19 安裝 ","執行 Defraggler v1.19(&R)","Button4"
+sendwinbyclick="Defraggler v1.19 安裝 ","完成(&F)","Button2"
+
+

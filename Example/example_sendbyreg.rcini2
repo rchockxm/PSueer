@@ -1,0 +1,3 @@
+; send string by reg value (sendbyreg)
+run="%WinDir%\notepad.exe",-max
+sendbyreg="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion",ProductName,"未命名 - 記事本"

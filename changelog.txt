@@ -1,1 +1,28 @@
+Version Revisions
 
+v2.0.1 Updates - Released 2015-12-06
+========================================================================
+-Added Autoit 3.3.14.2 compiler supported.
+-Fixed some bugs.
+
+v2.0.1 Updates - Released 2010-06-06
+========================================================================
+-Added: NirCMD Function
+-Added: PSueer 'rundll32' Function
+-Added: PSueer 'dllinstall','dlluninstall' Function
+-Added: PSEditor ToolTips and Chinese(Taiwan) Language
+-Added: PSEditor Package Source Parameters (Progress,Message,Title)
+-Added: PSEditor 'DragQueryFile' Feature
+-Added: 7-Zip.exe for 9.14 beta
+-Added: Some Function Example
+-Added: Some Script Example
+-Fixed: PSEditor Some Bug
+-Changed: PSEdit to PSEditor  
+
+v2.0.0 Beta Updates - Released 2010-05-22
+========================================================================
+-First release (improve of RcToolsX 1.3)
+-Added: PSEdit for PSueer Editor
+-Added: Some Function Example
+-Added: Readme.html
+-Added: Third-Party Tools

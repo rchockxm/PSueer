@@ -1,0 +1,4 @@
+; run by reg value  (runbyreg)
+; if you have installed WinRAR on your computer, it can be run.
+runbyreg="HKEY_LOCAL_MACHINE\SOFTWARE\WinRAR","exe32",-none
+

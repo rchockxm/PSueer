@@ -1,0 +1,6 @@
+; send windows by click (sendwinbyclick)
+; click button 7, 8, 9
+run="%SystemRoot%\system32\calc.exe",-max
+sendwinbyclick="¤pºâ½L","","Button5"
+sendwinbyclick="¤pºâ½L","","Button9"
+sendwinbyclick="¤pºâ½L","","Button13"

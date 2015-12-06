@@ -1,0 +1,3 @@
+; run command line (runcmd)
+runcmd="regedit.exe"
+

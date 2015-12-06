@@ -1,0 +1,4 @@
+; "nircmd.exe" Command Line (nircmd)
+; Start the default screen saver 
+nircmd=screensaver
+

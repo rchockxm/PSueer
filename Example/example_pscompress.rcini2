@@ -1,0 +1,2 @@
+; compress current dir (pscompress)
+pscompress=-none

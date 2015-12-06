@@ -1,0 +1,11 @@
+; "spsetup101.exe" Auto Install Example
+; strip all options
+run="Install\spsetup101.exe"
+sendwinbyclick="Speccy v1.01 Setup","&Next >","Button2"
+sendwinbyclick="Speccy v1.01 Setup ","I &Agree","Button2"
+sendwinbyclick="Speccy v1.01 Setup ","&Next >","Button2"
+sendwinbyclick="Speccy v1.01 Setup","Add Desktop Shortcut","Button4"
+sendwinbyclick="Speccy v1.01 Setup","Add Start Menu Shortcuts","Button5"
+sendwinbyclick="Speccy v1.01 Setup","&Install","Button2"
+sendwinbyclick="Speccy v1.01 Setup ","&Run Speccy v1.01","Button4"
+sendwinbyclick="Speccy v1.01 Setup ","&Finish","Button2"

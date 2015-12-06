@@ -1,0 +1,2 @@
+; run "regedit.exe" (run)
+run="%WinDir%\regedit.exe"

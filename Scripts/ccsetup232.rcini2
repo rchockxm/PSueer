@@ -1,0 +1,16 @@
+; "ccsetup232.exe" Auto Install Example
+; strip all options
+run="Install\ccsetup232.exe"
+sendwinbyclick="Installer Language","OK","Button1"
+sendwinbyclick="CCleaner v2.32 安裝","下一步(&N) >","Button2"
+sendwinbyclick="CCleaner v2.32 安裝 ","我接受(&I)","Button2"
+sendwinbyclick="CCleaner v2.32 安裝 ","下一步(&N) >","Button2"
+sendwinbyclick="CCleaner v2.32 安裝","新增捷徑到桌面","Button4"
+sendwinbyclick="CCleaner v2.32 安裝","新增捷徑到開始功能表","Button5"
+sendwinbyclick="CCleaner v2.32 安裝","新增 '執行 CCleaner' 選項到資源回收筒的右鍵選單","Button6"
+sendwinbyclick="CCleaner v2.32 安裝","新增 '開啟 CCleaner' 選項到資源回收筒的右鍵選單","Button7"
+sendwinbyclick="CCleaner v2.32 安裝","自動檢查 CCleaner 是否有新版本","Button8"
+sendwinbyclick="CCleaner v2.32 安裝","安裝 CCleaner Yahoo! 工具列","Button9"
+sendwinbyclick="CCleaner v2.32 安裝","安裝(&I)","Button2"
+sendwinbyclick="CCleaner v2.32 安裝 ","執行 CCleaner v2.32(&R)","Button4"
+sendwinbyclick="CCleaner v2.32 安裝 ","完成(&F)","Button2"

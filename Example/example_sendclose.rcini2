@@ -1,0 +1,6 @@
+; send windows or process close (sendclose)
+run="%SystemRoot%\system32\calc.exe",-max
+run="%WinDir%\notepad.exe",-max
+sendclose="¤pºâ½L","-win","-wait"
+sendclose="notepad.exe","-proc","-wait"
+

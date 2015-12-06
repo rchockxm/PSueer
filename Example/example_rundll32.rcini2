@@ -1,0 +1,5 @@
+; run rundll32.exe (rundll32)
+; mouse settings dialog
+rundll32="SHELL32.dll,Control_RunDLL main.cpl @0,0"
+; Safely Remove Hardware
+rundll32="SHELL32.DLL,Control_RunDLL HotPlug.dll"

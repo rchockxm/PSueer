@@ -1,0 +1,49 @@
+; ========================================================================
+; PSueer Usage
+; ========================================================================
+[Script]
+run="explorer.exe",(Default:-none["-hide","-max","-min,-none"])
+
+[Commandline]
+run "explorer.exe" -hide
+
+[Record Hotkey]
+"F2" Get Click Mouse Pos
+"F3" Get Input String
+"F4" Get Click Key
+"F5" Return Back Pre Step
+"F6" Exit Record
+"TAB" Switch on Next Control
+
+[Global Hotkey]
+"ESC" Exit Program
+
+; ========================================================================
+; PSueer Function
+; ========================================================================
+psautorecord
+psreadscript
+pscompress
+run
+runwait
+runshell
+runshellwait
+runbyreg
+runbyclipboard
+runcmd
+rundll32
+filedelete
+filecopy
+filemove
+filerename
+filesetattrib
+send
+sendbyreg
+sendbyclipboard
+sendwinbycontrol
+sendwinbyclick
+sendbymouse
+sendclose
+nircmd
+dllinstall
+dlluninstall

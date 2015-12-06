@@ -1,0 +1,6 @@
+; send windows by mouse (sendbymouse)
+; click button 7, 2
+run="%SystemRoot%\system32\calc.exe",-max
+sendbymouse=0,0,"¤pºâ½L","","Button5"
+sendbymouse=0,0,"¤pºâ½L","","Button11"
+
